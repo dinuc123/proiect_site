@@ -1,0 +1,141 @@
+﻿body {
+    background: url('https://plainbackground.com/plain1024/fae6fa.png');
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #262626;
+    margin: 5% 0;
+}
+.center {
+    margin: auto;
+    width: 50%;
+}
+.center-page{
+    width:200px;
+    height:300px;
+    position:absolute;
+    top:-2px;
+    bottom:275px;
+    left:-2px;
+    right:1107px;
+    margin:auto;
+}
+.down {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    margin: auto;
+}
+.up {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}  
+.up1 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    margin: auto;
+}
+.down1 {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    margin: auto;
+}
+.mydatagrid {
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+    border: none 0px transparent;
+}
+
+    .rows:hover {
+        background-color: #ff8000;
+        font-family: Arial;
+        color: #fff;
+        text-align: left;
+    }
+
+.selectedrow {
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
+
